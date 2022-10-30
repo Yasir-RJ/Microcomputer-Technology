@@ -1,0 +1,11 @@
+1.1
+LEDs B0..2 must be off.
+Switches 1..3 must be off.
+If one of the switches 1..3 is set to on,
+the corresponding LED must be lit,
+and it should not be possible to light the "other two" LEDs.
+(The program is restarted via reset.)
+
+1.2
+LEDs B0..2 must show a sequence of 3 different patterns that must be stored as constants in the memory. In memory, there should be 8 different sequences that the program should use in turn. (If the patterns “run out” start over.) The patterns should not contain 0b000 or 0b111 …… the user should set the first pattern on the switches, and when it is correct the next pattern should be displayed and so on. When the 3rd pattern is correct, all 3 LEDs should light up. If the user then sets to, on, on, on a new 3-pattern sequence begins.
+
